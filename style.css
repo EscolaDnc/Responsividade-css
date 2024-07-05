@@ -3,6 +3,7 @@ html {
   height: 100%;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
+  font-size: 10px;
 }
 
 body {
@@ -10,19 +11,19 @@ body {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 6.4rem;
   font-weight: 800;
   margin: 0;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 800;
   margin: 0;
 }
 
 p {
-  font-size: 20px;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -30,8 +31,8 @@ button {
   background-color: #f84646;
   color: white;
   font-weight: 800;
-  padding: 8px 24px;
-  border-radius: 5px;
+  padding: 0.8rem 2.4rem;
+  border-radius: 0.5rem;
   border: none;
   cursor: pointer;
 }
@@ -41,7 +42,7 @@ button:hover {
 }
 
 #menu {
-  font-size: 14px;
+  font-size: 1.4rem;
   float: right;
 }
 
@@ -51,11 +52,11 @@ button:hover {
 
 #menu > ul > li {
   display: inline;
-  margin: 0 40px 0 0;
+  margin: 0 4rem 0 0;
 }
 
 #menu > ul > li:last-of-type {
-  margin: 0 48px 0 0;
+  margin: 0 4.8rem 0 0;
 }
 
 #menu > ul > li > a {
@@ -65,36 +66,36 @@ button:hover {
 }
 
 #presentation-container {
-  padding: 40px 120px;
+  padding: 4rem 12rem;
   background-color: #d6d6d6;
-  height: 800px;
+  height: 90vh;
 }
 
 .presetation {
-  max-width: 665px;
+  max-width: 66.5rem;
   position: relative;
-  top: calc(50% - 137px);
+  top: calc(50% - 13.7rem);
 }
 
 .presetation-description {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .container {
-  padding: 64px 120px;
+  padding: 6.4rem 12rem;
   text-align: center;
 }
 
 .contact-title {
-  margin-top: 8px;
+  margin-top: 0.8rem;
 }
 
 .contact-message {
-  margin-top: 24px;
+  margin-top: 2.4rem;
 }
 
 .contact-button {
-  font-size: 24px;
-  padding: 24px 40px;
-  margin-top: 32px;
+  font-size: 2.4rem;
+  padding: 2.4rem 4rem;
+  margin-top: 3.2rem;
 }
