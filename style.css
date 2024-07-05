@@ -67,7 +67,9 @@ button:hover {
 
 #presentation-container {
   padding: 4rem 12rem;
-  background-color: #d6d6d6;
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 90vh;
 }
 
@@ -84,6 +86,10 @@ button:hover {
 .container {
   padding: 6.4rem 12rem;
   text-align: center;
+}
+
+.container-bg {
+  background: linear-gradient(180deg, #fff, #d5d5d5);
 }
 
 .contact-title {
