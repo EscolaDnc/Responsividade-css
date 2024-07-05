@@ -1,0 +1,100 @@
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+  margin: 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
+button {
+  background-color: #f84646;
+  color: white;
+  font-weight: 800;
+  padding: 8px 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#menu {
+  font-size: 14px;
+  float: right;
+}
+
+#menu > ul {
+  padding: 0;
+}
+
+#menu > ul > li {
+  display: inline;
+  margin: 0 40px 0 0;
+}
+
+#menu > ul > li:last-of-type {
+  margin: 0 48px 0 0;
+}
+
+#menu > ul > li > a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#presentation-container {
+  padding: 40px 120px;
+  background-color: #d6d6d6;
+  height: 800px;
+}
+
+.presetation {
+  max-width: 665px;
+  position: relative;
+  top: calc(50% - 137px);
+}
+
+.presetation-description {
+  margin-top: 20px;
+}
+
+.container {
+  padding: 64px 120px;
+  text-align: center;
+}
+
+.contact-title {
+  margin-top: 8px;
+}
+
+.contact-message {
+  margin-top: 24px;
+}
+
+.contact-button {
+  font-size: 24px;
+  padding: 24px 40px;
+  margin-top: 32px;
+}
