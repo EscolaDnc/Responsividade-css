@@ -86,18 +86,12 @@ button:hover {
 .container {
   padding: 6.4rem 12rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.container-bg {
-  background: linear-gradient(180deg, #fff, #d5d5d5);
-}
-
-.contact-title {
+.container-description {
   margin-top: 0.8rem;
-}
-
-.contact-message {
-  margin-top: 2.4rem;
 }
 
 .contact-button {
@@ -107,7 +101,30 @@ button:hover {
   transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
 }
 
-.contact-button:hover {
+.container-button:hover {
   opacity: 0.7;
   transform: scale(1.1);
+}
+
+.qualities {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  margin-top: 6.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.qualities > img {
+  margin: 0 4rem;
+}
+
+.background-red {
+  background-color: #f84646;
+  color: #fff;
+}
+
+.background-gradient {
+  background: linear-gradient(180deg, #fff, #d5d5d5);
 }
