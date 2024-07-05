@@ -41,6 +41,27 @@ button:hover {
   opacity: 0.8;
 }
 
+footer {
+  padding: 6.4rem 12rem;
+  background-color: #f84646;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+footer > section {
+  display: flex;
+  justify-content: center;
+}
+
+footer > section > ul > li {
+  list-style: none;
+  margin-bottom: 1.6rem;
+}
+
+footer > section > ul > li:last-child {
+  margin-bottom: 0;
+}
+
 #menu {
   font-size: 1.4rem;
   float: right;
@@ -164,4 +185,24 @@ button:hover {
 
 .background-gradient {
   background: linear-gradient(180deg, #fff, #d5d5d5);
+}
+
+.footer-list-title {
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16rem;
+}
+
+.footer-copyright > div > a {
+  margin-right: 1.6rem;
+  text-decoration: none;
+}
+
+.footer-copyright > div > a:last-child {
+  margin-right: 0;
 }
