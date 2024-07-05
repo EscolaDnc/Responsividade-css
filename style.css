@@ -73,6 +73,43 @@ button:hover {
   height: 90vh;
 }
 
+#blog > article {
+  display: flex;
+  margin-top: 12rem;
+  text-align: left;
+}
+
+#blog > article:first-child {
+  margin-top: 0;
+}
+
+#blog > article > div {
+  margin-right: 4.8rem;
+}
+
+#blog > article > img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+#blog > article > .article-detail > p {
+  margin-top: 4rem;
+}
+
+#blog > article > .article-detail > button {
+  margin-top: 4.8rem;
+}
+
+#blog > article:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+#blog > article:nth-child(even) > div {
+  margin-left: 4.8rem;
+  margin-right: 0;
+}
+
 .presetation {
   max-width: 66.5rem;
   position: relative;
